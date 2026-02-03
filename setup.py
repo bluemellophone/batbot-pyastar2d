@@ -28,7 +28,7 @@ astar_module = Extension(
     ],
     define_macros=[
         ('Py_LIMITED_API', '0x03090000'),
-        ('NPY_NO_DEPRECATED_API', 'NPY_1_7_API_VERSION'),
+        ('NPY_NO_DEPRECATED_API', 'NPY_2_0_API_VERSION'),
         ('NPY_TARGET_VERSION', 'NPY_2_0_API_VERSION'),
     ],
     py_limited_api=True,
